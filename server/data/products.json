@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Hope Glow Candle",
+    "category": "candles",
+    "label": "Bestseller",
+    "price": 28,
+    "description": "Warm vanilla and cedar for prayerful evenings and gentle resets.",
+    "image": "https://images.unsplash.com/photo-1603905179139-db12ab535ca9?q=80&w=874&auto=format&fit=crop"
+  },
+  {
+    "id": 2,
+    "name": "Peace Be Still Candle",
+    "category": "candles",
+    "label": "New",
+    "price": 26,
+    "description": "Lavender, amber, and soft florals for restful mornings and evenings.",
+    "image": "https://images.unsplash.com/photo-1603006905003-be475563bc59?w=800&auto=format&fit=crop&q=60"
+  },
+  {
+    "id": 3,
+    "name": "Be Still Bookmark",
+    "category": "bookmarks",
+    "label": "Thoughtful",
+    "price": 8,
+    "description": "A soft-touch bookmark featuring Psalm 46:10 for your next quiet chapter.",
+    "image": "https://images.unsplash.com/photo-1713722060806-9fd225c898e2?w=800&auto=format&fit=crop&q=60"
+  },
+  {
+    "id": 4,
+    "name": "Grace Upon Grace Stickers",
+    "category": "stickers",
+    "label": "New",
+    "price": 12,
+    "description": "A gentle collection of waterproof scripture stickers for journals and everyday spaces.",
+    "image": "https://images.unsplash.com/photo-1756902786854-8ebb0c213eb9?w=800&auto=format&fit=crop&q=60"
+  },
+  {
+    "id": 5,
+    "name": "Shepherd Candle",
+    "category": "candles",
+    "label": "Cozy",
+    "price": 30,
+    "description": "Cedarwood and warm spice notes inspired by peace, guidance, and home.",
+    "image": "https://images.unsplash.com/photo-1596433809252-260c2745dfdd?w=800&auto=format&fit=crop&q=60"
+  },
+  {
+    "id": 6,
+    "name": "Loved Beyond Measure Bookmark",
+    "category": "bookmarks",
+    "label": "Giftable",
+    "price": 8,
+    "description": "A simple daily reminder of belovedness, finished with a natural cotton tassel.",
+    "image": "https://images.unsplash.com/photo-1561865406-62a037159577?w=800&auto=format&fit=crop&q=60"
+  }
+]

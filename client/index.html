@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grace & Glow | Faith-filled gifts</title>
+    <meta name="description" content="Warm, faith-filled candles and little gifts for everyday grace." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="#top" aria-label="Grace and Glow home">
+          <span class="brand-mark">G</span>
+          <span>Grace & Glow</span>
+        </a>
+
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="#new">New</a>
+          <a href="#shop">Shop</a>
+          <a href="#seasonal">Seasonal</a>
+          <a href="#about">Our story</a>
+        </nav>
+
+        <button class="cart-button" type="button" data-cart-open aria-label="Open shopping cart">
+          Cart <span class="cart-count">0</span>
+        </button>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Little reminders of grace</p>
+            <h1>Make room for light.</h1>
+            <p class="hero-text">Christian candles and thoughtful little gifts for prayer corners, quiet mornings, and the people you love.</p>
+            <div class="button-row">
+              <a class="button button-primary" href="#shop">Shop the collection</a>
+              <a class="button button-quiet" href="#about">Our story</a>
+            </div>
+            <div class="hero-note"><span>✦</span> Made in small batches with intention</div>
+          </div>
+          <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1603006905003-be475563bc59?auto=format&fit=crop&w=1200&q=85" alt="Warm candle glowing beside a Bible and dried flowers" />
+            <div class="image-caption"><span>For quiet moments</span><strong>Light, rest, reflect.</strong></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="intro-band" id="new">
+        <div class="container intro-grid">
+          <p class="eyebrow">New this season</p>
+          <h2>Gifts that hold a little meaning.</h2>
+          <p>Start with a candle, add a bookmark, and leave a little encouragement wherever you go.</p>
+          <a class="text-link" href="#shop">See what is new <span>→</span></a>
+        </div>
+      </section>
+
+      <section class="shop-section" id="shop">
+        <div class="container">
+          <div class="section-heading split-heading">
+            <div>
+              <p class="eyebrow">The collection</p>
+              <h2>Made for everyday devotion.</h2>
+            </div>
+            <p class="section-detail">Simple pieces for a home and life filled with hope.</p>
+          </div>
+
+          <div class="filter-bar" aria-label="Shop by category">
+            <button class="filter-button active" type="button" data-filter="all">All gifts</button>
+            <button class="filter-button" type="button" data-filter="candles">Candles</button>
+            <button class="filter-button" type="button" data-filter="bookmarks">Bookmarks</button>
+            <button class="filter-button" type="button" data-filter="stickers">Stickers</button>
+          </div>
+
+          <div class="product-grid" id="product-grid" aria-live="polite"></div>
+        </div>
+      </section>
+
+      <section class="seasonal-section" id="seasonal">
+        <div class="container seasonal-grid">
+          <div>
+            <p class="eyebrow">Seasonal edit</p>
+            <h2>For the changing seasons of faith.</h2>
+            <p>Limited collections will live here: Christmas giving, Easter hope, new beginnings, and more to come.</p>
+            <a class="button button-light" href="#shop">Browse the shop</a>
+          </div>
+          <div class="seasonal-mark" aria-hidden="true">✦</div>
+        </div>
+      </section>
+
+      <section class="about-section" id="about">
+        <div class="container about-grid">
+          <p class="eyebrow">Why Grace & Glow</p>
+          <h2>Small gifts. Deep meaning.</h2>
+          <p>We create warm, useful reminders of God’s goodness for the ordinary parts of life. Every collection starts small, so there is room to grow thoughtfully into whatever comes next.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="brand" href="#top"><span class="brand-mark">G</span><span>Grace & Glow</span></a>
+          <p>Faith-filled goods for ordinary days.</p>
+        </div>
+        <div><h3>Shop</h3><a href="#shop">All gifts</a><a href="#shop">Candles</a><a href="#shop">Bookmarks</a></div>
+        <div><h3>Explore</h3><a href="#new">New arrivals</a><a href="#seasonal">Seasonal</a><a href="#about">Our story</a></div>
+        <div><h3>Stay close</h3><p>Notes on faith, home, and the little things that help us slow down.</p><form class="newsletter-form"><input type="email" placeholder="Email address" aria-label="Email address" required /><button class="button button-primary" type="submit">Join</button></form></div>
+      </div>
+    </footer>
+
+    <aside class="cart-drawer" aria-label="Shopping cart" aria-hidden="true">
+      <div class="cart-header"><div><p class="eyebrow">Your bag</p><h2>Shopping cart</h2></div><button class="close-button" type="button" data-cart-close aria-label="Close shopping cart">×</button></div>
+      <div class="cart-items" id="cart-items"><p class="empty-cart">Your cart is waiting for a little light.</p></div>
+      <div class="cart-footer"><div><span>Subtotal</span><strong id="cart-total">$0</strong></div><button class="button button-primary checkout-button" type="button">Checkout</button></div>
+    </aside>
+    <div class="cart-overlay" data-cart-close></div>
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,12 @@
+{
+  "name": "grace-and-glow-shop",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Mock backend for the Grace & Glow faith-filled gift shop.",
+  "scripts": {
+    "start": "node server/index.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
